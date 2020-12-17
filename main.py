@@ -48,5 +48,6 @@ window.bind("<Return>", calculate_distance)
 calculate_button = tk.Button(text="Calculate", command=calculate_distance, font=FONT)
 calculate_button.grid(row=2, column=1)
 
+miles_input.focus()
 
 window.mainloop()
